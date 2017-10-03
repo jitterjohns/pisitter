@@ -1,25 +1,26 @@
 # pisitter
 A smart ceramics kilnsitter powered by Raspberry Pi running Raspian.
 
-# Contributing
+## Contributing
 
 Use this branching model http://nvie.com/posts/a-successful-git-branching-model/
 
-Adding a feature
+**Adding a feature**
 
-    Ensure you're up to date
-
+1. Ensure you're up to date
+```
 git checkout develop
 git pull origin develop
-
-    Branch off devleop
-
+```
+2. Branch off devleop
+```
 git checkout -b feature/your-thing develop
 # hack, hack
 git push origin feature/your-thing
+```
+3. Open PR with `develop` as base and `feature/your-thing` as compare
+https://github.com/FlamingLotusGirls/Noetica/pulls
 
-    Open PR with develop as base and feature/your-thing as compare https://github.com/FlamingLotusGirls/Noetica/pulls
+**Fixing a bug**
 
-Fixing a bug
-
-Same as above, but prefix branch name with bugfix/ as in bugfix/thing-i-fixed
+*Same as above, but prefix branch name with* `bugfix/` as in `bugfix/thing-i-fixed`
